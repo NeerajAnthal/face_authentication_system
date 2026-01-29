@@ -48,7 +48,7 @@ This separation ensures clean design, security, and scalability.
 - NumPy
 - Pandas
 - Streamlit
-- ngrok (for evaluation access)
+
 
 ---
 
@@ -61,21 +61,24 @@ This separation ensures clean design, security, and scalability.
 ```bash
 pip install opencv-python mtcnn keras-facenet numpy pandas tensorflow tf-keras streamlit pillow
 ```
-
+---
 ### Step 2: Register a User (One-Time)
 ```python register.py```
-##Look at the camera
+#### Look at the camera
 
-##Slightly move your face
+#### Slightly move your face
 
-##The system captures face images and stores embeddings
-
-###Step 3: Run Attendance System
+#### The system captures face images and stores embeddings
+---
+### Step 3: Run Attendance System
 ```streamlit run app.py```
-##Click Start Camera
+#### Click Start Camera
 
-##Registered face → Punch In
+#### Registered face → Punch In
 
-##Leave frame → Return → Punch Out
+
+#### Leave frame → Return → Punch Out
+---
+
 
 
