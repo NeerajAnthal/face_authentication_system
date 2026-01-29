@@ -60,10 +60,22 @@ This separation ensures clean design, security, and scalability.
 ### 🔹 Step 1: Install Dependencies
 ```bash
 pip install opencv-python mtcnn keras-facenet numpy pandas tensorflow tf-keras streamlit pillow
+```
 
-Step 2: Register a User (One-Time)
-python register.py
+### Step 2: Register a User (One-Time)
+```python register.py```
+##Look at the camera
 
-Step 3: Run Attendance System
-streamlit run app.py
+##Slightly move your face
+
+##The system captures face images and stores embeddings
+
+###Step 3: Run Attendance System
+```streamlit run app.py```
+##Click Start Camera
+
+##Registered face → Punch In
+
+##Leave frame → Return → Punch Out
+
 
